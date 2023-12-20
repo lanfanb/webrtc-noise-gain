@@ -478,8 +478,6 @@ elif machine in ("armv6", "armhf", "armv6l"):
         "-DWEBRTC_ARCH_32_BITS",
         "-DPFFFT_SIMD_DISABLE",
     ]
-else:
-    raise ValueError(f"Unsupported machine: {machine}")
 
 # -----------------------------------------------------------------------------
 
